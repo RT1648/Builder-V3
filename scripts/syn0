@@ -5,6 +5,7 @@ cd ~/work
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j7
+repo sync --fail-fast -j4
 }
 
 echo "Syncing Rom and Device Sources..."

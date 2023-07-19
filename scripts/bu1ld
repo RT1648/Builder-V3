@@ -6,8 +6,6 @@ export USE_CCACHE=1
 ccache -M 80G
 ccache -o compression=true
 ccache -z
-rm -rf android/build/soong
-git clone https://github.com/crdroidandroid/android_build_soong.git android/build/soong
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 blissify -g X01BD -j7 

@@ -10,4 +10,4 @@ rm -rf android/build/soong
 git clone https://github.com/crdroidandroid/android_build_soong.git android/build/soong
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-blissify -g X01BD -j7 & sleep 95m
+blissify -g X01BD -j7 

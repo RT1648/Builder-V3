@@ -25,5 +25,4 @@ task:
   Build_script:
       - ./scripts/bu1ld
   upload_script:
-      - #./scripts/upl0ad
-      - ./scripts/Up
+      - ./scripts/upl0ad

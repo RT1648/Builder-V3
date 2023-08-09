@@ -9,7 +9,7 @@ env:
     CLO: RMP:ci
     CLO_1: ENCRYPTED[b979a1b7b6b8f16cc5873cf821fd20caa146db646ea4f58080cae260c00bdd405bb4b11f728a54dda181a658ee14a3c9]
     URI: #
-    ROM_U: 0
+    ROM_U: 1
     
 task:
   name: "build"

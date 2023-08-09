@@ -6,8 +6,8 @@ env:
     TARGET: evolution 
     LUNCH_COMBO: evolution_${DEVICE}-userdebug
     OUTPUT: e*.zip
-    CLO: 1:ci
-    CLO_1: ENCRYPTED[9180e5cebc8ddd14f77750b368c01e239514fb2d0a1ae80878b1f1714a81384a21b730650636747cbe171a72d60fd653]
+    CLO: RMP:ci
+    CLO_1: ENCRYPTED[b979a1b7b6b8f16cc5873cf821fd20caa146db646ea4f58080cae260c00bdd405bb4b11f728a54dda181a658ee14a3c9]
     URI: #
     ROM_U: 0
     

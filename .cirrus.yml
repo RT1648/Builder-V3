@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/ArrowOS/android_manifest.git -b arrow-13.1
+    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu-jem
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt-1
-    TARGET: bacon
-    LUNCH_COMBO: arrow_${DEVICE}-userdebug
-    OUTPUT: A*.zip
+    TARGET: evolution 
+    LUNCH_COMBO: evolution_${DEVICE}-userdebug
+    OUTPUT: e*.zip
     CLO: 1:ci
     CLO_1: ENCRYPTED[9180e5cebc8ddd14f77750b368c01e239514fb2d0a1ae80878b1f1714a81384a21b730650636747cbe171a72d60fd653]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/Arrow/ccache.tar.gz/download
-    ROM_U: 1
+    URI: #
+    ROM_U: 0
     
 task:
   name: "build"

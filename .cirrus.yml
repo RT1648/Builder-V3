@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b tiramisu-jem
+    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt-1
-    TARGET: evolution 
-    LUNCH_COMBO: evolution_${DEVICE}-userdebug
-    OUTPUT: e*.zip
+    TARGET: bacon
+    LUNCH_COMBO: lineage_${DEVICE}-userdebug
+    OUTPUT: r*.zip
     CLO: ci:ci
     CLO_1: ENCRYPTED[78bf84ab4b7856641b2a5b15b99b69eaae5a594504bc4a35607fc3b5e79311e110d7eafec2eb94e4f0d15093beabf56d]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/EvoX/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/RisingOS/ccache.tar.gz/download
     ROM_U: 1
     
 task:

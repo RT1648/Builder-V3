@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: aosp_${DEVICE}-userdebug
     OUTPUT: P*.zip
     CLO: ci:ci
-    CLO_1: ENCRYPTED[78bf84ab4b7856641b2a5b15b99b69eaae5a594504bc4a35607fc3b5e79311e110d7eafec2eb94e4f0d15093beabf56d]
+    CLO_1: ENCRYPTED[aa2f1bbb14abe21af2757546154e29154daf201671e9c29a1c0ef24539534963ac756cda3d780d03ea11d78106555648]
     URI: https://sourceforge.net/projects/fleur/files/ccache/Pixelos/ccache.tar.gz/download
     ROM_U: 1
     

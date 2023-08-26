@@ -1,14 +1,14 @@
 env:
-    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs -g default,-mips,-darwin,-notdefault
+    MANIFEST: https://github.com/PixelOS-AOSP/manifest.git -b thirteen
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt-1
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: r*.zip
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    OUTPUT: P*.zip
     CLO: ci:ci
     CLO_1: ENCRYPTED[aa2f1bbb14abe21af2757546154e29154daf201671e9c29a1c0ef24539534963ac756cda3d780d03ea11d78106555648]
-    URI: https://sourceforge.net/projects/fleur/files/ccache/RisingOS/ccache.tar.gz/download
+    URI: https://sourceforge.net/projects/fleur/files/ccache/Pixelos/ccache.tar.gz/download
     ROM_U: 1
 
 task:

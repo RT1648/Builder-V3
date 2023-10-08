@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/PixelOS-AOSP/manifest.git -b thirteen
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/RT1648/local_manifestt-1
+    LOCAL_MANIFEST: https://github.com/RT1648/local_manifest-X01BD
     TARGET: bacon
     LUNCH_COMBO: aosp_${DEVICE}-userdebug
     OUTPUT: P*.zip

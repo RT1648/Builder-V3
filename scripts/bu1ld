@@ -1,10 +1,9 @@
 #!/bin/bash
 cd ~/work
-git clone https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_asus_X01BD.git vendor/asus/X01BD
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 90G
+ccache -M 50G
 ccache -o compression=true
 ccache -z
 . build/envsetup.sh

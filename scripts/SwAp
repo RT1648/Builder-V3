@@ -7,7 +7,7 @@ sudo swapon --show
 free -h
 
 # create a swap file
-sudo fallocate -l 4G /bitrise/swapfile
+sudo fallocate -l 20G /bitrise/swapfile
 ls -lh /bitrise/swapfile
 sudo chmod 600 /bitrise/swapfile
 ls -lh /bitrise/swapfile

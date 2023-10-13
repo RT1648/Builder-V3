@@ -1,6 +1,23 @@
-#!/bin/bash
-set() {
-sudo fallocate -l 20G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && free -h
-}
-echo "Checking Swap & Setting Up Swap"
-set
+#!/usr/bin/env bash
+set -ex
+
+# check swap
+sudo swapon --show
+# and free memory / RAM
+free -h
+
+# create a swap file
+sudo fallocate -l 4G /bitrise/swapfile
+ls -lh /bitrise/swapfile
+sudo chmod 600 /bitrise/swapfile
+ls -lh /bitrise/swapfile
+
+# now make this file a swap file
+sudo mkswap /bitrise/swapfile
+# and activate it as swap
+sudo swapon /bitrise/swapfile
+
+# it should show up now here in the swap stats
+sudo swapon --show
+# and in the free memory / RAM stats
+free -h

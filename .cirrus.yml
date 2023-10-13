@@ -18,8 +18,6 @@ task:
       image: apon77/aosp:cirrus
       cpu: 8
       memory: 32G
-  Swap_script:
-      - ./scripts/SwAp || source scripts/SwAp
   Storage-Checker_script:
       - ./scripts/d0wnl0ad
   Sync_script:

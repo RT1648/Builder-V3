@@ -1,6 +1,6 @@
 #!/bin/bash
 set() {
-sudo fallocate -l 20G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && cat /proc/sys/vm/swappiness && sudo sysctl vm.swappiness=60 && vm.swappiness=50 && free -h
+sudo fallocate -l 20G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && cat /proc/sys/vm/swappiness && sudo sysctl vm.swappiness=60 && free -h
 }
 echo "Checking Swap & Setting Up Swap"
 set
